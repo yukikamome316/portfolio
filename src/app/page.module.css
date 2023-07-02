@@ -3,8 +3,8 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 6rem;
-  min-height: 100vh;
+  padding: 6.5rem;
+  /* min-height: 100vh; */
 }
 
 .description {
@@ -226,4 +226,117 @@
   to {
     transform: rotate(0deg);
   }
+}
+
+.nameText {
+  display: flex;
+  width: 200px;
+  height: 95px;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: rgba(15, 15, 15, 0.80);
+  font-size: 88px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  user-select: none;
+}
+
+.usernameText {
+  margin-top: 10px;
+  display: flex;
+  width: 266px;
+  height: 35px;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #868686;
+  font-size: 32px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.profileContainer {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 6rem;
+}
+
+.profileText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.socialList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profileContent {
+  margin-left: 3rem;
+}
+
+.profileImage {
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.contentRight {
+  margin-top: -1.5rem;
+  margin-left: -7rem;
+  position: relative;
+}
+
+.line {
+  margin-top: 2rem;
+  width: 20rem;
+}
+
+.buttonsList {
+  width: 38rem;
+  height: 4.5rem;
+  flex-shrink: 0;
+  border-radius: 9999px;
+  background: #DADADA;
+  margin-top: 4rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 0.7rem;
+}
+
+.navList{
+  display: flex;
+  justify-content:space-between;
+  padding:0;
+  list-style:none;
+}
+
+.navList li{
+  padding: 10px;
+}
+
+.navLink {
+  color: rgba(15, 15, 15, 0.80);
+  font-size: 32px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  /* padding-left: 6.5rem; */
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-size: 1.5rem;
+  border-radius: 0.25rem;
+}
+
+.navLink:hover {
+  color: #AAA;
+  cursor: pointer;
 }

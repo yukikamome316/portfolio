@@ -1,0 +1,43 @@
+.socials {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: inherit;
+  color: #303030;
+  margin-left: 3.5rem;
+}
+
+.socialIcon {
+  margin-right: 12px;
+  padding-right: 20px;
+  color: inherit;
+  cursor: pointer;
+  vertical-align: middle;
+  width: 76px;
+  height: 76px;
+  transition: transform 0.07s ease-in-out, color 0.07s ease-in-out;
+}
+
+.github {
+  flex-shrink: 0;
+}
+
+.twitter {
+  flex-shrink: 0;
+}
+
+.instagram {
+  flex-shrink: 0;
+}
+
+.github:hover {
+  color: #111111;
+}
+
+.twitter:hover {
+  color: #1da1f2;
+} 
+
+.instagram:hover {
+  color: #e33f5f
+}
