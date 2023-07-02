@@ -108,3 +108,8 @@ a {
     color-scheme: dark;
   }
 }
+
+::selection {
+  color: #fff;
+  background-color: #3abec1;
+}

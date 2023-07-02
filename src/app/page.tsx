@@ -7,18 +7,17 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.profileContainer}>
-        <div className={styles.profileImage}>
-          <Image
-            src="/Cinnamoroll_integrated_512px.jpg"
-            alt="Profile"
-            width={350}
-            height={350}
-            style={{
-              objectFit: 'cover',
-              borderRadius: '50%',
-            }}
-          />
-        </div>
+        <Image
+          src="/Cinnamoroll_integrated_512px.jpg"
+          alt="Profile"
+          width={350}
+          height={350}
+          style={{
+            objectFit: 'cover',
+            borderRadius: '50%',
+            userSelect: 'none',
+          }}
+        />
         <div className={styles.profileContent}>
           <div className={styles.profileText}>
             <p className={styles.nameText}>Yuki</p>
