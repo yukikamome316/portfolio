@@ -1,11 +1,11 @@
 .socials {
   display: inline-flex;
+  height: 100%;
+  gap: 2rem;
   color: #383838;
 }
 
 .socialIcon {
-  margin-right: 2.5rem;
-  height: 100%;
   transition: transform 0.07s ease-in-out, color 0.07s ease-in-out;
 }
 
