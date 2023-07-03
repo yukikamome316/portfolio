@@ -3,35 +3,28 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 6.5rem;
-  /* min-height: 100vh; */
+  padding: 1rem;
+  min-height: 100vh;
 }
 
 .nameText {
-  display: flex;
-  width: 200px;
-  height: 95px;
   flex-direction: column;
   flex-shrink: 0;
   color: rgba(15, 15, 15, 0.80);
-  font-size: 88px;
+  font-size: 5em;
   font-family: Inter;
   font-style: normal;
   font-weight: 700;
-  line-height: normal;
+  line-height: 5rem;
   user-select: none;
+
 }
 
 .usernameText {
-  margin-top: 16px;
-  margin-left: 6px;
-  display: flex;
-  width: 266px;
-  height: 20px;
   flex-direction: column;
   flex-shrink: 0;
   color: #868686;
-  font-size: 32px;
+  font-size: 1.8em;
   font-family: Inter;
   font-style: normal;
   font-weight: 700;
@@ -42,7 +35,7 @@
   display: flex;
   align-items: center;
   gap: 2rem;
-  margin-top: 6rem;
+  margin: auto auto 0 auto;
 }
 
 .profileText {
@@ -61,28 +54,22 @@
   margin-left: 3rem;
 }
 
-.contentRight {
-  margin-top: -2rem;
-  margin-left: -12rem;
-  position: relative;
-}
-
 .line {
-  margin-top: 2.5rem;
-  width: 25rem;
+  margin-top: 1rem;
+  width: 22rem;
 }
 
 .buttonsList {
   user-select: none;
   width: 38rem;
-  height: 4.5rem;
   flex-shrink: 0;
   border-radius: 9999px;
   background: #DADADA;
-  margin-top: 4rem;
+  margin-bottom: 15rem;
+  margin-top: 5rem;
   padding-left: 5rem;
   padding-right: 5rem;
-  padding-top: 0.7rem;
+  padding-top: 0.4rem;
   transition: transform 0.07s ease-in-out, color 0.07s ease-in-out;
 }
 
@@ -111,10 +98,11 @@
   text-decoration: none;
   font-size: 1.5rem;
   border-radius: 0.25rem;
-  transition: transform 0.1s ease-in-out, color 0.1s ease-in-out;
+  transition: transform 0.08s ease-in-out, color 0.1s ease-in-out;
 }
 
 .navLink:hover {
   color: #000000;
   cursor: pointer;
+  transform: scale(1.03,1.03);
 }
