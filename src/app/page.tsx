@@ -10,8 +10,9 @@ export default function Home() {
         <Image
           src="/Cinnamoroll_integrated_512px.jpg"
           alt="Profile"
-          width={350}
-          height={350}
+          width={300}
+          height={300}
+          loading="eager"
           style={{
             objectFit: 'cover',
             borderRadius: '50%',
@@ -24,10 +25,8 @@ export default function Home() {
             <p className={styles.usernameText}>yukikamome316</p>
           </div>
           <hr className={styles.line}/>
-          <div className={styles.contentRight}>
-            <div className={styles.line}></div>
-            <SocialList />
-          </div>
+          <div className={styles.line}></div>
+          <SocialList />
         </div>
       </div>
 
