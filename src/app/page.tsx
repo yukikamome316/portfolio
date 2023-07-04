@@ -13,12 +13,8 @@ export default function Home() {
             alt="Profile"
             width={300}
             height={300}
+            className={styles.profileImage}
             loading="eager"
-            style={{
-              objectFit: 'cover',
-              borderRadius: '50%',
-              userSelect: 'none',
-            }}
           />
           <div className={styles.profileContent}>
             <div className={styles.profileText}>
@@ -27,11 +23,14 @@ export default function Home() {
             </div>
             <hr className={styles.line}/>
             <div className={styles.line}></div>
-            <SocialList />
+            <div className={styles.socialList}>
+              <SocialList />
+            </div> 
           </div>
         </div>
-
+        
         <div className={styles.buttonsList}>
+          <hr className={styles.lineBottom}/>
           <ul className={styles.navList}>
             <li className={styles.navListItem}>
               <Link href="/about" className={styles.navLink} passHref>
