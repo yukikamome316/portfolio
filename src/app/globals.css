@@ -5,7 +5,7 @@
   --navLinkGap: 1rem;
   --headPadding: 1rem;
   --navHeight: calc(var(--navLinkHeight) * var(--navLinkCount) + var(--navLinkVerticalPadding) * var(--navLinkCount) * 2 + var(--navLinkGap) * (var(--navLinkCount) - 1));
-  --withNavListHeight: calc(100dvh - var(--headPadding) * 2 - var(--navHeight) - 1rem * 2 - 1px)
+  --withNavListHeight: calc(100dvh - var(--headPadding) * 7 - var(--navHeight) - 1rem * 2 - 1px)
 }
 
 * {
