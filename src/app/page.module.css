@@ -23,26 +23,24 @@
   color: rgba(15, 15, 15, 0.80);
   font-size: 4.5em;
   font-family: Bold;
-  font-style: normal;
-  font-weight: 900;
+  font-weight: 600;
   line-height: 4.5rem;
   user-select: none;
 }
 
 .usernameText {
   flex-direction: column;
-  flex-shrink: 0;
   color: #868686;
   font-size: 1.6em;
-  font-family: Bold;
-  font-weight: 600;
+  /* font-family: Bold; */
+  /* font-weight: bold; */
   line-height: 2.5rem;
 }
 
 .profileContainer {
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 1.5rem;
   margin: auto auto 0 auto;
 }
 
@@ -147,11 +145,12 @@
   }
 
   .nameText {
-    font-size: 3em;
+    font-size: 3.5em;
   }
 
   .usernameText {
-    font-size: 1.5em;
+    font-size: 1.2em;
+    line-height: 1rem;
   }
 
   .socialList {
@@ -165,7 +164,7 @@
   .lineBottom {
     margin-top: 0;
     display: inherit;
-    width: 20rem;
+    width: 17rem;
     margin-bottom: 1rem;
   }
 
@@ -182,9 +181,7 @@
   }
   
   .navLink {
-    font-size: 1.6em;
-    font-family: Bold;
-    font-weight: 600;
+    font-size: 1.4em;
     color: rgba(15, 15, 15, 0.80);
   }
 }
