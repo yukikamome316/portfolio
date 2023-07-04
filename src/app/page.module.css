@@ -3,12 +3,13 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  min-height: 100dvh;
+  /* min-height: 100dvh; */
 }
 
 .headContainer {
   padding: 1rem;
   margin: auto;
+  height: 100svh;
 }
 
 .profileImage {
