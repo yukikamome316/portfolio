@@ -22,7 +22,6 @@
   flex-shrink: 0;
   color: rgba(15, 15, 15, 0.80);
   font-size: 4.5em;
-  font-family: Bold;
   font-weight: 600;
   line-height: 4.5rem;
   user-select: none;
@@ -32,8 +31,6 @@
   flex-direction: column;
   color: #868686;
   font-size: 1.6em;
-  /* font-family: Bold; */
-  /* font-weight: bold; */
   line-height: 2.5rem;
 }
 
