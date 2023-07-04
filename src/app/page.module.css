@@ -1,5 +1,3 @@
-@import url(https://fonts.googleapis.com/css?family=Inter);
-
 .main {
   display: flex;
   flex-direction: column;
@@ -168,7 +166,7 @@
   .lineBottom {
     margin-top: 0;
     display: inherit;
-    width: 23rem;
+    width: 20rem;
     margin-bottom: 1rem;
   }
 
@@ -183,7 +181,7 @@
     flex-direction: column;
     align-items: center;
   }
-
+  
   .navLink {
     font-size: 1.6em;
     font-family: Inter Bold;
