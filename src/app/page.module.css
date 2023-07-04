@@ -22,7 +22,7 @@
   flex-shrink: 0;
   color: rgba(15, 15, 15, 0.80);
   font-size: 4.5em;
-  font-family: Inter Bold;
+  font-family: Bold;
   font-style: normal;
   font-weight: 900;
   line-height: 4.5rem;
@@ -34,7 +34,7 @@
   flex-shrink: 0;
   color: #868686;
   font-size: 1.6em;
-  font-family: Inter Bold;
+  font-family: Bold;
   font-weight: 600;
   line-height: 2.5rem;
 }
@@ -96,7 +96,6 @@
 .navLink {
   color: rgba(66, 66, 66, 0.8);
   font-size: 32px;
-  font-family: Inter;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -184,7 +183,7 @@
   
   .navLink {
     font-size: 1.6em;
-    font-family: Inter Bold;
+    font-family: Bold;
     font-weight: 600;
     color: rgba(15, 15, 15, 0.80);
   }

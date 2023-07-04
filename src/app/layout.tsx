@@ -3,8 +3,8 @@ import { Inter } from 'next/font/google'
 
 const inter = Inter({
   subsets: ['latin'],
-  variable: '--font-inter',
-})
+  preload: false,
+});
 
 export const metadata = {
   title: 'Yuki\'s portfolio',
@@ -18,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ja">
-      <body className={`${inter.variable} font-sans`}>{children}</body>
+      <body className={inter.className}>{children}</body>
     </html>
   )
 }
