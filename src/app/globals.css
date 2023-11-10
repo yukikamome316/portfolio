@@ -22,7 +22,7 @@ body {
 }
 
 body {
-  background-color: #F2F2F2;
+  background-color: #222222;
   font-family: -apple-system, Inter, BlinkMacSystemFont, Segoe UI, Roboto,
     Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
@@ -40,5 +40,5 @@ a {
 
 ::selection {
   color: #fff;
-  background-color: #3abec1;
+  background-color: rgb(170, 170, 170);
 }

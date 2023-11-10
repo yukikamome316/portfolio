@@ -31,7 +31,7 @@ interface Props {
 export const SocialList = ({ id = false }: Props) => (
   <div className={styles.socials}>
     {typedEntries(socials).map(([name, { href, Icon }]) => (
-      <Link href={href} key={name} passHref aria-label={name} className={styles[name]}>
+      <Link href={href} key={name} passHref aria-label={name} className={styles[name]} rel="noopener noreferrer" target="_blank">
         <Icon className={styles.socialIcon} />
         {id && <span className={styles.socialId}>{socials[name].id}</span>}
       </Link>
