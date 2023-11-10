@@ -5,9 +5,9 @@ import { SocialList } from '@/ui/feature/account/socialList';
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.headContainer}>
-        <div className={styles.profileContainer}>
+    <div className={styles.scrollWrap}>
+      <section className={styles.snapContainer}>
+        <div className={styles.headContainer}>
           <Image
             src="/Cinnamoroll_integrated_512px.jpg"
             alt="Profile"
@@ -28,28 +28,10 @@ export default function Home() {
             </div> 
           </div>
         </div>
-        
-        <div className={styles.buttonsList}>
-          <hr className={styles.lineBottom}/>
-          <ul className={styles.navList}>
-            <li className={styles.navListItem}>
-              <Link href="/about" className={styles.navLink} passHref>
-                About
-              </Link>
-            </li>
-            <li className={styles.navListItem}>
-              <Link href="/blog" className={styles.navLink} passHref>
-                Blog
-              </Link>
-            </li>
-            <li className={styles.navListItem}>
-              <Link href="/contact" className={styles.navLink} passHref>
-                Contact
-              </Link>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </main>
+      </section>
+      <section className={styles.snapContainer}>
+        <p>This is more than I can stand.</p>
+      </section>
+    </div>
   );
 }
