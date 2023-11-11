@@ -1,12 +1,12 @@
 .scrollWrap {
-  height: 100vh;
+  height: 100lvh;
   overflow: auto;
   scroll-snap-type: y mandatory;
 }
 
 .scrollWrap .snapContainer {
   scroll-snap-align: start;
-  height: 100vh;
+  height: 100lvh;
   
   display: flex;
   flex-wrap: wrap;
