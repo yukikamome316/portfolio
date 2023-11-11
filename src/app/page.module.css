@@ -19,6 +19,7 @@
 }
 
 .headContainer {
+  height: 100lvh;
   display: flex;
 }
 
