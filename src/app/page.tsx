@@ -15,6 +15,7 @@ export default function Home() {
             height={300}
             className={styles.profileImage}
             loading="eager"
+            priority={true}
           />
           <div className={styles.profileContent}>
             <div className={styles.profileText}>
