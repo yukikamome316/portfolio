@@ -2,6 +2,7 @@ import styles from './page.module.css';
 import Image from 'next/image';
 import Link from 'next/link';
 import { SocialList } from '@/ui/feature/account/socialList';
+import Timeline from '@/ui/timeline';
 
 export default function Home() {
   return (
@@ -31,7 +32,8 @@ export default function Home() {
         </div>
       </section>
       <section className={styles.snapContainer}>
-        <p>This is more than I can stand.</p>
+        {/* <h1>Timeline</h1> */}
+        <Timeline />
       </section>
     </div>
   );
